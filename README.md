@@ -68,7 +68,7 @@ Los valores disponibles son estos:
 -"Ia": módulo de alabeo de la sección.  
 -"w": gramil, ditancia entre ejes de agujeros.  
 -"a": diámetro dek agujero del roblón normal.  
--"e2": 
+-"e2":   
 -"p": peso en kg por metro.  
 -"cm": condiciones del mercado para el perfil (P - existencia permanente; C - Consultar).  
 
