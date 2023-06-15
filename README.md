@@ -1,3 +1,17 @@
+# Descripción
+Este programa, es una utilidad de línea de comandos escrita en Python para buscar y visualizar datos de perfiles metálicos para la construcción. Los datos de los perfiles se leen de un archivo `perfiles.json` que debe estar en la misma ruta que el archivo `.py`.
+
+El programa admite dos argumentos opcionales: `-perfil` y `-valor`.  
+
+1. `-perfil`: se utiliza para especificar el nombre del perfil metálico que se desea buscar.
+2. `-valor`: se utiliza para especificar un valor específico del perfil que se quiere buscar.
+
+Si se proporcionan estos argumentos en la línea de comandos, el programa buscará el perfil y valor indicados y mostrará los resultados en pantalla.
+
+Si no se proporcionan estos argumentos en la línea de comandos, el programa entrará en modo interactivo y preguntará al usuario qué perfil y valor quiere buscar.
+
+El programa siempre imprimirá al principio la descripción y la información del autor. Y en caso de no proporcionar argumentos en la línea de comandos, mostrará la lista de perfiles disponibles antes de pedir las entradas al usuario.
+
 ## Como funciona
 
 ### Instalación
@@ -10,14 +24,15 @@ pip install -r requirements.txt
 
 Comprueba que el fichero perfiles.py está junto al fichero perfiles.json que contiene todos los datos de los perfiles metálicos.
 
-### Funcionamiento
+### Uso
 
-El programa se invoca con el parámetro -perfil para indicar qué perfil se quiere ver y opcionalmente el parámetro -valor si solo se desea obtener un valor concreto para dicho perfil
+El programa se invoca con el parámetro `-perfil` para indicar qué perfil se quiere ver y opcionalmente el parámetro `-valor` si solo se desea obtener un valor concreto para dicho perfil
 ```
 python perfiles.py -perfil IPN80
 python perfiles.py -perfil IPN80 -valor p
 ```
 
+## Valores disponibles para cada tipo de perfil
 #### Perfiles IPN
 Los valores disponibles son estos:
 
