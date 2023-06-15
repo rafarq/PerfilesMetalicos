@@ -8,9 +8,7 @@ El programa admite dos argumentos opcionales: `-perfil` y `-valor`.
 
 Si se proporcionan estos argumentos en la línea de comandos, el programa buscará el perfil y valor indicados y mostrará los resultados en pantalla.
 
-Si no se proporcionan estos argumentos en la línea de comandos, el programa entrará en modo interactivo y preguntará al usuario qué perfil y valor quiere buscar.
-
-El programa siempre imprimirá al principio la descripción y la información del autor. Y en caso de no proporcionar argumentos en la línea de comandos, mostrará la lista de perfiles disponibles antes de pedir las entradas al usuario.
+Si no se proporcionan estos argumentos en la línea de comandos, el programa entrará en modo interactivo y preguntará al usuario qué perfil y valor quiere buscar, mostrando la lista de perfiles disponibles antes de pedir las entradas al usuario.
 
 ## Como funciona
 
